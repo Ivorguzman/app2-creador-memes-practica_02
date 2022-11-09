@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src=" https://use.fontawesome.com/e50567129f.js "> </script>
+    <title>Creador de memes App</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand color1">Creador de Memes</a>
+            </div>
+        </div>
+    </nav>
+    <div class="marcoCanvas  color2">
+        <div class="principal centrado">
+            <div class="area-canvas">
+                <canvas class="imagen-canvas" id="areaCanvas">
+                    !Locentimos no se puede mostar la imagen su navegador no lo lo puede proicesar.¡
+                </canvas>
+            </div>
+            <div class="area-entrada">
+                <div class="form-group  ">
+                    <label  for="btnCargarmagen">Selecciona una Imagen:</label>
+                    <input type="file" class="form-control " id="btnCargarmagen" accept=".png,.jpeg,.jpg">
+                </div>
+                <div class="form-group">
+                    <label for="textoSuperior">Texto Superior : </label>
+                    <input type="text" class="form-control " id="textoSuperior">
+                </div>
+                <div class="form-group">
+                    <label for="textoInferior">Texto Inferior : </label>
+                    <input type="text" class="form-control" id="textoInferior">
+                </div>
+                <div class="color1"> <a class="btn btn-primary boton-descarga  " id="descargarMeme" download="meme.png">
+                        Descargar meme</a></divc>
+                </div>
+            </div>
+            <div  style="display:none"></div>
+        </div>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/script.js"></script>
+        <!-- <script src="js/script2.js"></script> -->
+</body>
+
+</html>
